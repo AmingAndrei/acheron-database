@@ -683,6 +683,18 @@ article td {
   color: #d478f8 !important;
 }
 
+.bestiary-btn--empusas {
+  border-color: rgb(118, 196, 87)!important;
+  background: rgb(42, 124, 19) !important;
+  color: #27b34a !important;
+}
+
+.bestiary-btn--aquilas {
+  border-color: rgb(244, 255, 94) !important;
+  background: rgb(160, 158, 55) !important;
+  color: #eede00 !important;
+}
+
 .bestiary-btn--leviathans {
   border-color: rgb(45, 68, 161) !important;
   background: rgb(2, 26, 87) !important;
@@ -1280,6 +1292,95 @@ article td {
   @media (max-width: 768px) {
     width: 12px;
     height: 12px;
+  }
+}
+
+// ─── Factions — Trio Layout ─────────────────────────────────────────────────
+.factions-grid--trio {
+  overflow: visible;
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  aspect-ratio: 1 / 0.866;
+  margin: 4rem auto;
+
+  @media (max-width: 768px) {
+    max-width: 280px; // was 340px
+    margin: 2rem auto;
+  }
+
+  &--labels-visible {
+    .materium-card__label {
+    opacity: 1;
+    color: #fff;
+    width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    }
+  }
+}
+
+.factions-grid--trio__lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+
+  polygon {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.35);
+    stroke-width: 1.5;
+    vector-effect: non-scaling-stroke; // keeps line width consistent, ignores stretch
+  }
+}
+
+.factions-grid--trio__node {
+  position: absolute;
+  z-index: 1;
+  width: 180px;
+
+  @media (max-width: 768px) {
+    width: 110px;
+  }
+
+  &--top   { top: 10%; left: 50%; transform: translate(-50%, -50%); }
+  &--left  { top: 90%; left: 10%; transform: translate(-50%, -50%); }
+  &--right { top: 90%; left: 90%; transform: translate(-50%, -50%); }
+
+  &.materium-card {
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+    max-width: none !important;
+  }
+
+  .materium-card__label {
+    opacity: 1 !important;
+    color: #fff !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    max-width: none !important;
+  }
+}
+
+.factions-grid--trio__text {
+  position: absolute;
+  top: 66.6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 55%;
+  text-align: center;
+  color: #ccc;
+  font-size: 1.6rem;
+  line-height: 1.6;
+
+  @media (max-width: 768px) {
+    font-size: 0.95rem; // was 0.65rem
+    width: 68%;
   }
 }
 
