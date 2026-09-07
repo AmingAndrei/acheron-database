@@ -29,4 +29,7 @@ Hellfire is created by Violence Against Nature, as a more powerful version of [[
 # .properties
 <div class="bestiary-divider"></div>
 
-Hellfire is wildly unpredictable and shares all of the abilities of [[phlogiston|Phlogiston]], albeit a much more powerful and chaotic version of them. Hellfire will also not create any gaps in local [[Anima]]. Wounds are similarly untreatable, albeit they are much more grievous and dangerous, as the [[Anima]] incineration can extend way beyond the scar itself, and in some cases even burn the entire body before all the [[anima|Anima]] is consumed. In a direct confrontation, Hellfire will always easily overpower and choke [[Phlogiston]] out completely, and even small wounds can fully extinguish a [[chimeras|Chimera]]'s soul.
+- Hellfire is wildly unpredictable and shares all of the abilities of [[phlogiston|Phlogiston]], albeit a much more powerful and chaotic version of them, although Hellfire will not create any gaps in local [[Anima]].
+- Wounds are similarly untreatable, albeit they are much more grievous and dangerous: minor wounds will act as a tracker for [[Devils]], and major wounds will lead to the Hellfire incinerating one's entire body until all the [[anima|Anima]] is consumed.
+- Hellfire can negate the effects of Absolutes, and in some cases even outright destroy them.
+- In a direct confrontation, Hellfire will always easily overpower and choke [[Phlogiston]] out completely, and even small wounds can fully extinguish a [[chimeras|Chimera]]'s soul.
