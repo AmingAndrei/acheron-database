@@ -1350,27 +1350,21 @@ article td {
   &--right { top: 90%; left: 90%; transform: translate(-50%, -50%); }
 
   &.materium-card {
-    overflow: visible !important;
-    text-overflow: clip !important;
-    white-space: normal !important;
-    max-width: none !important;
-  }
+    padding: 4px !important;
 
-  .materium-card__label {
-    opacity: 1 !important;
-    color: #fff !important;
-    white-space: nowrap !important;
-    overflow: visible !important;
-    text-overflow: clip !important;
-    max-width: none !important;
-  }
-  &.materium-card {
-    padding: 4px !important; // was 14px — less padding, more room for the icon
+    @media (max-width: 768px) {
+      padding: 6px !important;
+    }
   }
 
   .materium-card__icon {
-    width: 80%;  // was 65% (inherited) — bigger icon, same icon-wrap size
-    height: 80%;
+    width: 70%;
+    height: 70%;
+
+    @media (max-width: 768px) {
+      width: 60%;
+      height: 60%;
+    }
   }
 }
 
