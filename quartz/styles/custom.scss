@@ -1349,8 +1349,12 @@ article td {
   &--left  { top: 90%; left: 10%; transform: translate(-50%, -50%); }
   &--right { top: 90%; left: 90%; transform: translate(-50%, -50%); }
 
+  // Kill any global truncation rules on the link itself
   &.materium-card {
     padding: 4px !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    max-width: none !important;
 
     @media (max-width: 768px) {
       padding: 6px !important;
@@ -1365,6 +1369,18 @@ article td {
       width: 60%;
       height: 60%;
     }
+  }
+
+  // Force single-line, centered, untruncated label
+  .materium-card__label {
+    opacity: 1 !important;
+    color: #fff !important;
+    width: auto !important;
+    max-width: none !important;
+    white-space: nowrap !important;
+    overflow-wrap: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
   }
 }
 

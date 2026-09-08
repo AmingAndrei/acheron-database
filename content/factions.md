@@ -51,13 +51,13 @@ cssclasses:
         <span class="materium-card__corner materium-card__corner--bl"></span>
         <span class="materium-card__corner materium-card__corner--br"></span>
       </div>
-      <img src="/assets/placeholder_icon.svg" class="materium-card__icon" alt="The Cabal"/>
+      <img src="/assets/factions/chromacy_logo.png" class="materium-card__icon" alt="CHROMACY"/>
     </div>
     <span class="materium-card__label">.chromacy</span>
   </a>
 
   <div class="factions-grid--trio__text">
-    THE CITY
+    CITY ZERO
   </div>
 
 </div>
