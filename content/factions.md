@@ -23,7 +23,7 @@ cssclasses:
         <span class="materium-card__corner materium-card__corner--bl"></span>
         <span class="materium-card__corner materium-card__corner--br"></span>
       </div>
-      <img src="/assets/placeholder_icon.svg" class="materium-card__icon" alt="The Order"/>
+      <img src="/assets/factions/pale_logo.png" class="materium-card__icon" alt="PALE"/>
     </div>
     <span class="materium-card__label">.pale</span>
   </a>
@@ -37,7 +37,7 @@ cssclasses:
         <span class="materium-card__corner materium-card__corner--bl"></span>
         <span class="materium-card__corner materium-card__corner--br"></span>
       </div>
-      <img src="/assets/placeholder_icon.svg" class="materium-card__icon" alt="The Wilds"/>
+      <img src="/assets/factions/ultraviolet_logo.png" class="materium-card__icon" alt="ULTRAVIOLET"/>
     </div>
     <span class="materium-card__label">.ultraviolet</span>
   </a>

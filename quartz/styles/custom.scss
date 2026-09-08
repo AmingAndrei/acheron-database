@@ -1221,7 +1221,7 @@ article td {
   text-overflow: ellipsis;
 
   @media (max-width: 768px) {
-    font-size: 0.55rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -1363,6 +1363,14 @@ article td {
     overflow: visible !important;
     text-overflow: clip !important;
     max-width: none !important;
+  }
+  &.materium-card {
+    padding: 4px !important; // was 14px — less padding, more room for the icon
+  }
+
+  .materium-card__icon {
+    width: 80%;  // was 65% (inherited) — bigger icon, same icon-wrap size
+    height: 80%;
   }
 }
 
