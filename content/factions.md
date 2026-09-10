@@ -14,7 +14,7 @@ cssclasses:
   <polygon points="50,8.66 10,77.94 90,77.94"></polygon>
 </svg>
 
-  <a href="/factions" class="materium-card factions-grid--trio__node factions-grid--trio__node--top">
+  <a href="/factions/pale" class="materium-card factions-grid--trio__node factions-grid--trio__node--top">
     <div class="materium-card__icon-wrap">
       <span class="materium-card__glow"></span>
       <div class="materium-card__frame">
