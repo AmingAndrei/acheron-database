@@ -11,7 +11,6 @@ aliases:
 <br><br>
 
 <div class="materium-image">
-  <span class="materium-image__glow"></span>
   <div class="materium-image__frame">
     <span class="materium-image__corner materium-image__corner--tl"></span>
     <span class="materium-image__corner materium-image__corner--tr"></span>
@@ -47,4 +46,4 @@ Any citizen with Pale territory can own private property, distinguished from per
 
 The Pale has total control over the City Zero territory and any other areas currently unoccupied and within reach, along with the Sarcophagus, the main energy source of City Zero, and partial control over the Signal Stations, shared with [[Ultraviolet]]. Their headquarters are located in the Spine.
 
-The Pale is in possession of one [[Nightmare Shackle]], used within the Sarcophagus to hold [HATEHATEHATEHAT].
+The Pale is in possession of one [[Nightmare Shackle]], used within the Sarcophagus to hold Violence Against God.

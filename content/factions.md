@@ -28,7 +28,7 @@ cssclasses:
     <span class="materium-card__label">.pale</span>
   </a>
 
-  <a href="/factions" class="materium-card factions-grid--trio__node factions-grid--trio__node--left">
+  <a href="/factions/ultraviolet" class="materium-card factions-grid--trio__node factions-grid--trio__node--left">
     <div class="materium-card__icon-wrap">
       <span class="materium-card__glow"></span>
       <div class="materium-card__frame">
