@@ -23,7 +23,7 @@ cssclasses:
         <span class="materium-card__corner materium-card__corner--bl"></span>
         <span class="materium-card__corner materium-card__corner--br"></span>
       </div>
-      <img src="/assets/factions/pale_logo.png" class="materium-card__icon" alt="PALE"/>
+      <img src="/assets/factions/pale_logo.png" class="materium-card__icon" alt="The Pale"/>
     </div>
     <span class="materium-card__label">.pale</span>
   </a>
@@ -37,7 +37,7 @@ cssclasses:
         <span class="materium-card__corner materium-card__corner--bl"></span>
         <span class="materium-card__corner materium-card__corner--br"></span>
       </div>
-      <img src="/assets/factions/ultraviolet_logo.png" class="materium-card__icon" alt="ULTRAVIOLET"/>
+      <img src="/assets/factions/ultraviolet_logo.png" class="materium-card__icon" alt="Ultraviolet"/>
     </div>
     <span class="materium-card__label">.ultraviolet</span>
   </a>
@@ -51,7 +51,7 @@ cssclasses:
         <span class="materium-card__corner materium-card__corner--bl"></span>
         <span class="materium-card__corner materium-card__corner--br"></span>
       </div>
-      <img src="/assets/factions/chromacy_logo.png" class="materium-card__icon" alt="CHROMACY"/>
+      <img src="/assets/factions/chromacy_logo.png" class="materium-card__icon" alt="The Chromacy"/>
     </div>
     <span class="materium-card__label">.chromacy</span>
   </a>
